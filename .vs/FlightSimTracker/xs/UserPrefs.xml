@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{C3128A09-9A2D-45A8-8B24-01998B8C4B83}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlightSimTracker/Program.cs">
+    <Files>
+      <File FileName="FlightSimTracker/Game.cs" Line="1" Column="1" />
+      <File FileName="FlightSimTracker/SimSelection.cs" Line="1" Column="1" />
+      <File FileName="FlightSimTracker/Program.cs" Line="1" Column="1" />
+      <File FileName="FlightSimTracker/SimSelection.Designer.cs" Line="21" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FlightSimTracker" expanded="True">
+            <Node name="FlightSimTracker" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+              <Node name="SimSelection.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FlightSimTracker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

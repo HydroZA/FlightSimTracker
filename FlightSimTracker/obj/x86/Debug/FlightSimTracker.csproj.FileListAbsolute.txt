@@ -1,0 +1,17 @@
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\FlightSimTracker.exe
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\FlightSimTracker.exe.config
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\FlightSimTracker.pdb
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\EntityFramework.dll
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\EntityFramework.SqlServer.dll
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\Microsoft.FlightSimulator.SimConnect.dll
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\EntityFramework.xml
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\bin\x86\Debug\EntityFramework.SqlServer.xml
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.Properties.Resources.resources
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.csproj.GenerateResource.cache
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.csproj.CoreCompileInputs.cache
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.csproj.CopyComplete
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.exe
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.pdb
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.MainForm.resources
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.csprojAssemblyReference.cache
+C:\Users\James Legge\OneDrive\Programming\FlightSimTracker\FlightSimTracker\obj\x86\Debug\FlightSimTracker.SimSelection.resources
