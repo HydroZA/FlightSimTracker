@@ -16,21 +16,21 @@ namespace FlightSimTracker
         {
             g = Game.DCS;
             new MainForm(g).Show();
-            this.Hide();
+            Hide();
         }
 
         private void MSFS_Click(object sender, EventArgs e)
         {
             g = Game.MSFS;
             new MainForm(g).Show();
-            this.Hide();
+            Hide();
         }
 
         private void Xplane_Click(object sender, EventArgs e)
         {
             g = Game.XPLANE;
             new MainForm(g).Show();
-            this.Hide();
+            Hide();
         }
 
         public Game GetGame()

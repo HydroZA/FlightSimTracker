@@ -38,6 +38,7 @@
             this.LogitudeLabel = new System.Windows.Forms.Label();
             this.altitudeLabel = new System.Windows.Forms.Label();
             this.AirSpeedLabel = new System.Windows.Forms.Label();
+            this.btnStartTracking = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnToggleWebServer
@@ -126,11 +127,22 @@
             this.AirSpeedLabel.TabIndex = 8;
             this.AirSpeedLabel.Text = "Air Speed: ";
             // 
+            // btnStartTracking
+            // 
+            this.btnStartTracking.Location = new System.Drawing.Point(153, 88);
+            this.btnStartTracking.Name = "btnStartTracking";
+            this.btnStartTracking.Size = new System.Drawing.Size(125, 44);
+            this.btnStartTracking.TabIndex = 9;
+            this.btnStartTracking.Text = "Start Tracking";
+            this.btnStartTracking.UseVisualStyleBackColor = true;
+            this.btnStartTracking.Click += new System.EventHandler(this.btnStartTracking_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 211);
+            this.Controls.Add(this.btnStartTracking);
             this.Controls.Add(this.AirSpeedLabel);
             this.Controls.Add(this.altitudeLabel);
             this.Controls.Add(this.LogitudeLabel);
@@ -162,6 +174,7 @@
         private System.Windows.Forms.Label LogitudeLabel;
         private System.Windows.Forms.Label altitudeLabel;
         private System.Windows.Forms.Label AirSpeedLabel;
+        private System.Windows.Forms.Button btnStartTracking;
     }
 }
 
