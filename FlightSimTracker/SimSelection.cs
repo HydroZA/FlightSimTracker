@@ -14,9 +14,10 @@ namespace FlightSimTracker
 
         private void DCS_Click(object sender, EventArgs e)
         {
-            g = Game.DCS;
-            new MainForm(g).Show();
-            Hide();
+            MessageBox.Show("Not Yet Implemented");
+            //    g = Game.DCS;
+            //   new MainForm(g).Show();
+            //   Hide();
         }
 
         private void MSFS_Click(object sender, EventArgs e)
@@ -28,9 +29,10 @@ namespace FlightSimTracker
 
         private void Xplane_Click(object sender, EventArgs e)
         {
-            g = Game.XPLANE;
-            new MainForm(g).Show();
-            Hide();
+            MessageBox.Show("Not Yet Implemented");
+            //g = Game.XPLANE;
+            //new MainForm(g).Show();
+            //Hide();
         }
 
         public Game GetGame()

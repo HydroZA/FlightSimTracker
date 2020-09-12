@@ -35,10 +35,11 @@
             this.labl2 = new System.Windows.Forms.Label();
             this.flightSimConnectionCircle = new System.Windows.Forms.Panel();
             this.latitudeLabel = new System.Windows.Forms.Label();
-            this.LogitudeLabel = new System.Windows.Forms.Label();
+            this.longitudeLabel = new System.Windows.Forms.Label();
             this.altitudeLabel = new System.Windows.Forms.Label();
             this.AirSpeedLabel = new System.Windows.Forms.Label();
             this.btnStartTracking = new System.Windows.Forms.Button();
+            this.headingLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnToggleWebServer
@@ -91,27 +92,27 @@
             // 
             this.latitudeLabel.AutoSize = true;
             this.latitudeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.latitudeLabel.Location = new System.Drawing.Point(9, 88);
+            this.latitudeLabel.Location = new System.Drawing.Point(9, 133);
             this.latitudeLabel.Name = "latitudeLabel";
             this.latitudeLabel.Size = new System.Drawing.Size(63, 17);
             this.latitudeLabel.TabIndex = 5;
             this.latitudeLabel.Text = "Latitude:";
             // 
-            // LogitudeLabel
+            // longitudeLabel
             // 
-            this.LogitudeLabel.AutoSize = true;
-            this.LogitudeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.LogitudeLabel.Location = new System.Drawing.Point(9, 115);
-            this.LogitudeLabel.Name = "LogitudeLabel";
-            this.LogitudeLabel.Size = new System.Drawing.Size(75, 17);
-            this.LogitudeLabel.TabIndex = 6;
-            this.LogitudeLabel.Text = "Longitude:";
+            this.longitudeLabel.AutoSize = true;
+            this.longitudeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.longitudeLabel.Location = new System.Drawing.Point(9, 160);
+            this.longitudeLabel.Name = "longitudeLabel";
+            this.longitudeLabel.Size = new System.Drawing.Size(75, 17);
+            this.longitudeLabel.TabIndex = 6;
+            this.longitudeLabel.Text = "Longitude:";
             // 
             // altitudeLabel
             // 
             this.altitudeLabel.AutoSize = true;
             this.altitudeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.altitudeLabel.Location = new System.Drawing.Point(9, 145);
+            this.altitudeLabel.Location = new System.Drawing.Point(9, 190);
             this.altitudeLabel.Name = "altitudeLabel";
             this.altitudeLabel.Size = new System.Drawing.Size(59, 17);
             this.altitudeLabel.TabIndex = 7;
@@ -121,7 +122,7 @@
             // 
             this.AirSpeedLabel.AutoSize = true;
             this.AirSpeedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AirSpeedLabel.Location = new System.Drawing.Point(9, 174);
+            this.AirSpeedLabel.Location = new System.Drawing.Point(9, 219);
             this.AirSpeedLabel.Name = "AirSpeedLabel";
             this.AirSpeedLabel.Size = new System.Drawing.Size(78, 17);
             this.AirSpeedLabel.TabIndex = 8;
@@ -129,23 +130,34 @@
             // 
             // btnStartTracking
             // 
-            this.btnStartTracking.Location = new System.Drawing.Point(153, 88);
+            this.btnStartTracking.Location = new System.Drawing.Point(12, 68);
             this.btnStartTracking.Name = "btnStartTracking";
-            this.btnStartTracking.Size = new System.Drawing.Size(125, 44);
+            this.btnStartTracking.Size = new System.Drawing.Size(122, 50);
             this.btnStartTracking.TabIndex = 9;
             this.btnStartTracking.Text = "Start Tracking";
             this.btnStartTracking.UseVisualStyleBackColor = true;
             this.btnStartTracking.Click += new System.EventHandler(this.btnStartTracking_Click);
             // 
+            // headingLabel
+            // 
+            this.headingLabel.AutoSize = true;
+            this.headingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.headingLabel.Location = new System.Drawing.Point(9, 245);
+            this.headingLabel.Name = "headingLabel";
+            this.headingLabel.Size = new System.Drawing.Size(134, 17);
+            this.headingLabel.TabIndex = 10;
+            this.headingLabel.Text = "Magnetic Heading:  ";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 211);
+            this.ClientSize = new System.Drawing.Size(334, 286);
+            this.Controls.Add(this.headingLabel);
             this.Controls.Add(this.btnStartTracking);
             this.Controls.Add(this.AirSpeedLabel);
             this.Controls.Add(this.altitudeLabel);
-            this.Controls.Add(this.LogitudeLabel);
+            this.Controls.Add(this.longitudeLabel);
             this.Controls.Add(this.latitudeLabel);
             this.Controls.Add(this.labl2);
             this.Controls.Add(this.flightSimConnectionCircle);
@@ -154,8 +166,8 @@
             this.Controls.Add(this.btnToggleWebServer);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(350, 250);
-            this.MinimumSize = new System.Drawing.Size(350, 250);
+            this.MaximumSize = new System.Drawing.Size(350, 325);
+            this.MinimumSize = new System.Drawing.Size(350, 325);
             this.Name = "MainForm";
             this.Text = "Flight Sim Tracker";
             this.ResumeLayout(false);
@@ -171,10 +183,11 @@
         private System.Windows.Forms.Label labl2;
         private System.Windows.Forms.Panel flightSimConnectionCircle;
         private System.Windows.Forms.Label latitudeLabel;
-        private System.Windows.Forms.Label LogitudeLabel;
+        private System.Windows.Forms.Label longitudeLabel;
         private System.Windows.Forms.Label altitudeLabel;
         private System.Windows.Forms.Label AirSpeedLabel;
         private System.Windows.Forms.Button btnStartTracking;
+        private System.Windows.Forms.Label headingLabel;
     }
 }
 
