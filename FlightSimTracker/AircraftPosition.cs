@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Newtonsoft.Json;
+using System.IO;
 
 namespace FlightSimTracker
 {
     class AircraftPosition
     {
-        public AircraftPosition() 
+        public AircraftPosition()
         {
         }
-        
+
         public struct Coordinates
         {
             public double latitude;
@@ -35,6 +31,15 @@ namespace FlightSimTracker
         {
             get;
             set;
+        }
+
+        public void SerializeToJSON(string path)
+        {
+            using (StreamWriter file = File.CreateText(path))
+            {
+                JsonSerializer s = new JsonSerializer();
+                s.Serialize(file, this);
+            }
         }
     }
 }

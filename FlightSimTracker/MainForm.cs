@@ -122,7 +122,6 @@ namespace FlightSimTracker
             DrawFlightSimConnectionCircle(Color.Green);
         }
 
-        // The case where the user closes FSX
         void simConnect_OnRecvQuit(SimConnect sender, SIMCONNECT_RECV data)
         {
             CloseConnection();
@@ -130,6 +129,7 @@ namespace FlightSimTracker
             DrawFlightSimConnectionCircle(Color.Red);
         }
 
+        // Whenever data is recieved from the sim this event is triggered
         void simConnect_OnRecvSimobjectDataBytype(SimConnect sender, SIMCONNECT_RECV_SIMOBJECT_DATA data)
         {
             switch ((DATA_REQUESTS)data.dwRequestID)
@@ -142,7 +142,10 @@ namespace FlightSimTracker
                     aircraftPosition.AirSpeed = Math.Round(s1.tas).ToString();
                     aircraftPosition.coords.latitude = s1.latitude;
                     aircraftPosition.coords.longitude = s1.longitude;
-                    
+
+                    // Serialize the data to JSON so the webserver can read it  
+                    aircraftPosition.SerializeToJSON(@"c:\posData.json");
+
                     break;
 
                 default:
