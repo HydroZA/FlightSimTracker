@@ -1,6 +1,6 @@
 ﻿namespace FlightSimTracker
 {
-    partial class MainForm
+    partial class DCSForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MSFSForm));
             this.btnToggleWebServer = new System.Windows.Forms.Button();
             this.onOffPanel = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();

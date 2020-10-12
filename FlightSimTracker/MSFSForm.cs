@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace FlightSimTracker
 {
-    public partial class MainForm : Form
+    public partial class MSFSForm : Form
     {
         private bool serverOn;
         private WebServer ws;
@@ -40,7 +40,7 @@ namespace FlightSimTracker
             DataStructure,
         }
 
-        public MainForm(Game g)
+        public MSFSForm(Game g)
         {
             InitializeComponent();
             aircraftPosition = new AircraftPosition();
